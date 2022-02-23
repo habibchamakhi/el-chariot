@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+body {
+   background-image: url(https://th.bing.com/th/id/R.cf31a383617fd78d8dc39776c7334975?rik=MuCAxjpdeNQQJQ&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f2622362%2fimages%2fo-FRUITS-AND-VEGETABLES-facebook.jpg&ehk=zZ7iq9GKeB2nV3YNgscpvDh659%2bIS%2fUfIszM5QAN3hE%3d&risl=&pid=ImgRaw&r=0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+/************************* header style ************/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 250px;
+  background-color: antiquewhite;
+}
+
+header img {
+  border-radius: 50px;
+}
+
+/******************* main style ****************/
+
+.total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.total h3 {
+  font-size: 30px;
+  margin-right: 50px;
+}
+.total p {
+  font-size: 30px;
+}
+
+.product {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.product img {
+  width: 200px;
+}
+
+.product button {
+  width: 100px;
+}
+
+.minus,
+.plus {
+  width: 50px !important;
+  border-radius: 100%;
+}
+
+.heart {
+  background-image: url("https://www.svgrepo.com/show/6061/heart.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-color: black; */
+  width: 50px;
+  height: 50px;
+  /* border: 1px solid black; */
+}
+.red {
+  background-image: url("https://www.svgrepo.com/show/30066/heart.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-color: black; */
+  width: 50px;
+  height: 50px;
+  /* border: 1px solid black; */
+}
+
+/********************* Footer **************/
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 20px;
+}
+.btn-rmv{
+  width: 50px !important;
+  border-radius: 80%;
+}
